@@ -16,10 +16,9 @@ footer {
 }
 
 imgleft {
-    /*display: inline-block;*/
+    display: inline-block;
     float: left;
     margin-right: 10px;
-    clear:both;
     /*height: 10%;*/
     /*width: 10%;*/
 }

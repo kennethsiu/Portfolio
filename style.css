@@ -4,6 +4,11 @@
   border-radius: 0;
 }
 
+/*Fix the bootstrap navbar-fixed top*/
+body {
+  padding-top: 70px;
+}
+
 /* Add a gray background color and some padding to the footer */
 footer {
   background-color: #f2f2f2;
@@ -12,9 +17,11 @@ footer {
 
 imgleft {
     /*display: inline-block;*/
-    /*float: left;*/
-    height: 10%;
-    width: 10%;
+    float: left;
+    margin-right: 10px;
+    clear:both;
+    /*height: 10%;*/
+    /*width: 10%;*/
 }
 
 imgright {
@@ -27,4 +34,10 @@ imgright {
 descright {
   display: inline-block;
   padding-left: 10px;
+}
+
+#experience, #projects, #education {
+  /*padding-left: 500px;*/
+  width: 50%;
+  margin: auto;
 }

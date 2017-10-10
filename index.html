@@ -12,7 +12,7 @@
 </head>
 <body>
 
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -38,15 +38,15 @@
 
 <div id="about" class="jumbotron">
   <div class="container text-center">
-    <imgright>
-      <img src="LinkedIn.jpg" class="img-thumbnail img-responsive pull-right">
-    </imgright>
+    <!--<imgright>-->
+    <!--  <img src="LinkedIn.jpg" class="img-thumbnail img-responsive pull-right">-->
+    <!--</imgright>-->
     <h1>Kenneth Siu</h1>
     <h2>Software Engineer</h2>
   </div>
 </div>
 
-<div id="experience" class="container-fluid bg-3 text-center">
+<div id="experience" class="container-fluid bg-3">
   <h3><b>Work Experience</b></h3><br>
     <imgleft>
       <img src="https://cdn.worldvectorlogo.com/logos/cisco-2.svg" height="10%" width="10%">
@@ -54,8 +54,12 @@
     <descright>
       <h3>Cisco &nbsp;</h3>
       <p>Jun 2017 - Sept 2017</p>
-      <p>Software Engineering Intern</p>
-      <p>Application Development Team</p>
+      <p>Software Engineering Intern - Application Development Team</p>
+      <ul>
+        <li>Developed a web application to analyze data for Cisco’s Unified Computing System Manager using Python for parsing and PyMongo for query scripts</li>
+        <li>Managed the database using MongoDB, which stored parsed hardware components data from over 60,000 log files</li>
+        <li>Created a UI using PHP, HTML, and CSS to allow hundreds of users to easily search for and visualize data</li>
+      </ul>
     </descright>
     <br><br>
 
@@ -63,7 +67,12 @@
     <descright>
       <h3>CalTeach &nbsp;</h3>
       <p>Sept 2016</p>
-      <p>Intern</p>
+      <p>Intern - Teaching Assistant</p>
+      <ul>
+        <li>Assisted the teaching of engineering courses to over 100 high school students</li>
+        <li>Researched how to effectively teach engineering-related material</li>
+        <li>Prepared and presented modern-day problems in engineering classes, and provided solutions on how to improve the education system</li>
+      </ul>
     </descright>
     <br><br>
 
@@ -71,32 +80,52 @@
     <descright>
       <h3>Microsoft &nbsp;</h3>
       <p>July 2015 - Sept 2015</p>
-      <p>Software Engineering Intern</p>
-      <p>Application Development Team</p>
+      <p>Software Engineering Intern - Application Development Team</p>
+      <ul>
+        <li>Created a live voting mobile application for Television Broadcasts Limited using C# on Microsoft Visual Studio</li>
+        <li>Used by thousands of people on a daily basis for several weeks</li>
+        <li>Managed the database using Microsoft SQL Server which stored live user votes</li>
+        <li>Created development testing plan and wrote testing script</li>
+        <li>Assisted in the system design for applications for sales industry in Hong Kong</li>
+      </ul>
     </descright>
-    <br>
+    <br><br>
 
 </div><br>
 
-<div id="projects" class="container-fluid bg-3 text-center">  
+<div id="projects" class="container-fluid bg-3">  
   <h3><b>Projects</b></h3><br>
-  <p>RandomMessenger</p><p>Sept 2016 – Dec 2016</p>
-  <br>
+  <h3>RandomMessenger</h3>
+  <p>Sept 2016 – Dec 2016</p>
   <p>Android Application Developer</p>
+  <ul>
+    <li>Developed a mobile application with six other members that allows users to connect to other users at random and start a conversation on Android Studio using Java</li>
+    <li>Implemented features such as messaging, login, and themes</li>
+    <li>Managed the database using Google Firebase which stored user messages</li>
+    <li>Utilized agile development to develop the application (requirements, design, implementation, testing)</li>
+  </ul>
   <br><br>
   
-  <p>SD Hacks Hackathon</p><p>Oct 2016</p>
-  <br>
+  <h3>SD Hacks Hackathon</h3>
+  <p>Oct 2016</p>
   <p>Virtual Reality Game Developer</p>
+  <ul>
+    <li>Created a virtual reality game with the HTC Vive on Unity using C#</li>
+    <li>Implemented features required for the concept of the game including motion detection, 3-D movement of the background and objects, logic design to choose the level of difficulty, and high score tracker</li>
+  </ul>
   <br><br>
 
-  <p>Citrus Hacks Hackathon</p><p>Nov 2015</p>
-  <br>
+  <h3>Citrus Hacks Hackathon</h3>
+  <p>Nov 2015</p>
   <p>Android Game Developer</p>
+  <ul>
+    <li>Developed a 2-D Android game on Unity using C#</li>
+    <li>Implemented features such as background transitioning, logic design of which stage to enter, touch screen response, and random time generator</li>
+  </ul>
   <br><br>
 </div><br>
 
-<div id="education" class="container-fluid bg-3 text-center">  
+<div id="education" class="container-fluid bg-3">  
   <h3><b>Education</b></h3><br>
   <img src="http://db.ucsd.edu/wp-content/uploads/2015/05/CSELogo_full.gif" height="25%" width="25%">
     <descright>

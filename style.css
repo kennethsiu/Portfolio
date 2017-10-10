@@ -26,8 +26,8 @@ imgleft {
 imgright {
     display: inline-block;
     float: right;
-    height: 10%;
-    width: 10%;
+    height: 20%;
+    width: 20%;
 }
 
 descright {
@@ -35,7 +35,7 @@ descright {
   padding-left: 10px;
 }
 
-#experience, #projects, #education {
+#about_text, #experience, #projects, #education {
   /*padding-left: 500px;*/
   width: 50%;
   margin: auto;

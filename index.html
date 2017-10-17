@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Portfolio</title>
+  <title>Kenneth Siu</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="style.css">
@@ -24,7 +24,7 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
+        <li class="active" style="font-family:monospace"><a href="#"><font size="4" color="337ab7">&lt;Kenneth Siu/&gt;</font></a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#projects">Projects</a></li>
@@ -36,12 +36,37 @@
 </nav>
 
 <div id="about" class="jumbotron">
-  <div id="about_text" class="container text-center">
+  <div id="about_text" class="container text-left">
     <imgright>
-      <img src="LinkedIn.jpg" class="img-thumbnail img-responsive">
+      <img id="LinkedIn_img" src="LinkedIn.jpg" class="img-thumbnail img-responsive" hspace="20">
     </imgright>
-    <h1>Kenneth Siu</h1>
-    <h2>Software Engineer</h2>
+    <center>
+      <br><br><br>
+      <h1 id="logo">&lt;Kenneth Siu/&gt;</h1>
+      <!--<img id="logo" src="Logo.png" class="img-thumbnail img-responsive">-->
+      <h2>Back-End Software Engineer</h2>
+      <h4>Application/Platform Engineering</h4>
+    </center>
+    <h5>
+      <br>
+      I am currently a student at UC San Diego pursuing a B.S. in Computer Science, with a 3.8/40 GPA.
+      My expected graduation date is in June of 2018, and I am looking for full-time software engineering opportunities starting July 2018!
+      I have had vast experience through my internships and projects that I have developed.
+      To see what I am currently working on, check out my <a href="http://github.com/ksiu002" target="_blank">GitHub</a>.
+      <br>
+    </h5>
+    <br>
+    <center>
+    <a href="mailto:kennethsiu96@yahoo.com">
+        <i class="fa fa-envelope fa-3x"></i>
+    </a> &nbsp; &nbsp;
+    <a href="http://linkedin.com/in/kennethsiu" target="_blank">
+        <i class="fa fa-linkedin-square fa-3x"></i>
+    </a> &nbsp; &nbsp;
+    <a href="http://github.com/ksiu002" target="_blank">
+        <i class="fa fa-github fa-3x"></i>
+    </a> &nbsp; &nbsp;
+    </center>
   </div>
 </div>
 
@@ -49,15 +74,16 @@
   <h3><b>Work Experience</b></h3><br>
     <descright>
       <p>
-        <img src="Cisco.svg" height="30%" width="30%" align="right">
+        <img src="Cisco.svg" height="35%" width="35%" align="right">
         <h3>Cisco &nbsp;</h3>
         <p>Software Engineering Intern - Application Development Team</p>
         <p>Jun 2017 - Sept 2017</p>
         <ul>
           <li>Developed a web application to analyze data for Cisco’s Unified Computing System Manager using Python for parsing and PyMongo for query scripts</li>
           <li>Managed the database using MongoDB, which stored parsed hardware components data from over 60,000 log files</li>
-          <li>Created a UI using PHP, HTML, and CSS to allow hundreds of users to easily search for and visualize data</li>
-          <li>Languages & Frameworks: <b>Python, PyMongo, MongoDB, PHP, HTML, CSS, JavaScript, jQuery, Bootstrap</b></li>
+          <!--<li>Created a UI using PHP, HTML, and CSS to allow hundreds of users to easily search for and visualize data</li>-->
+          <!--<li>Languages & Frameworks: <b>Python, PyMongo, MongoDB, PHP, HTML, CSS, JavaScript, jQuery, Bootstrap</b></li>-->
+          <li>Languages & Frameworks: <b>Python, PyMongo, MongoDB</b></li>
         </ul>
       </p>
     </descright>
@@ -65,7 +91,7 @@
 
     <descright>
       <p>
-        <img src="CalTeach.png" height="45%" width="45%" align="right">
+        <img src="CalTeach.png" height="40%" width="40%" align="right">
         <h3>CalTeach &nbsp;</h3>
         <p>Intern - Teaching Assistant</p>
         <p>Sept 2016</p>
@@ -101,9 +127,12 @@
 <div id="projects" class="container-fluid bg-3">  
   <h3><b>Projects</b></h3><br>
   
+  <!--RandomMessenger-->
   <p>
-    <img src="RandomMessenger.png" class="img-thumbnail img-responsive" height="25%" width=25%" align="right">
-    <h3>RandomMessenger</h3>
+    <a href="RandomMessenger.html" target="_blank">
+      <img src="RandomMessenger.png" class="img-thumbnail img-responsive" height="18%" width="18%" align="right">
+    </a>
+    <h3><a href="RandomMessenger.html">RandomMessenger</a></h3>
     <p>Android Application Developer</p>
     <p>Sept 2016 – Dec 2016</p>
     <ul>
@@ -111,7 +140,7 @@
       <li>Implemented features such as messaging, login, and themes</li>
       <li>Managed the database using Google Firebase which stored user messages</li>
       <li>Utilized agile development to develop the application (requirements, design, implementation, testing)</li>
-      <li>Languages & Frameworks: <b>Java, Android Studio</b></li>
+      <li>Languages & Frameworks: <b>Java, Google Firebase, Android Studio</b></li>
     </ul>
   </p>
   <div style="text-align:center">   
@@ -121,47 +150,66 @@
   </div>
   <br><br>
   
-  <p>
-    <img src="FitHead.png" class="img-thumbnail img-responsive" height="30%" width="30%" align="right">
-    <h3>SD Hacks Hackathon</h3>
-    <p>Virtual Reality Game Developer</p>
-    <p>Oct 2016</p>
-    <ul>
-      <li>Created a virtual reality game with the HTC Vive on Unity using C#</li>
-      <li>Implemented features required for the concept of the game including motion detection, 3-D movement of the background and objects, logic design to choose the level of difficulty, and high score tracker</li>
-      <li>Languages & Frameworks: <b>C#, Unity, HTC Vive</b></li>
-    </ul>
-  <div style="text-align:center">   
-    <a href="https://github.com/ksiu002/FitHead" target="_blank">
-      <i class="fa fa-github fa-2x fa-fw"></i>
-    </a>
+  <!--FitHead-->
+  <!--<p>-->
+  <!--  <a href="https://devpost.com/software/fit-head" target="_blank">-->
+  <!--    <img src="FitHead.png" class="img-thumbnail img-responsive" height="17.5%" width="17.5%" align="right">-->
+  <!--  </a>-->
+  <!--  <h3>SD Hacks Hackathon</h3>-->
+  <!--  <p>Virtual Reality Game Developer</p>-->
+  <!--  <p>Oct 2016</p>-->
+  <!--  <ul>-->
+  <!--    <li>Created a virtual reality game with the HTC Vive on Unity using C#</li>-->
+  <!--    <li>Implemented features required for the concept of the game including motion detection, 3-D movement of the background and objects, logic design to choose the level of difficulty, and high score tracker</li>-->
+  <!--    <li>Languages & Frameworks: <b>C#, Unity, HTC Vive</b></li>-->
+  <!--  </ul>-->
+  <!--<div style="text-align:center">   -->
+  <!--  <a href="https://github.com/ksiu002/FitHead" target="_blank">-->
+  <!--    <i class="fa fa-github fa-2x fa-fw"></i>-->
+  <!--  </a>-->
     
-    <a href="https://www.youtube.com/watch?v=3NAJlBvXESc" target="_blank">
-      <i class="fa fa-youtube fa-2x fa-fw"></i>
-    </a>
-  </div>
-  </p>
-  <br><br>
+  <!--  <a href="https://www.youtube.com/watch?v=3NAJlBvXESc" target="_blank">-->
+  <!--    <i class="fa fa-youtube fa-2x fa-fw"></i>-->
+  <!--  </a>-->
+    
+    <!--<a href="https://devpost.com/software/fit-head" target="_blank">-->
+    <!--  <img border="0" src="Devpost-32.png"/>-->
+    <!--</a>-->
+  <!--</div>-->
+  <!--</p>-->
+  <!--<br><br>-->
 
-  <p>
-    <img src="BenchBros.png" class="img-thumbnail img-responsive" height="25%" width="25%" align="right">
-    <h3>Citrus Hacks Hackathon</h3>
-    <p>Android Game Developer</p>
-    <p>Nov 2015</p>
-    <ul>
-      <li>Developed a 2-D Android game on Unity using C#</li>
-      <li>Implemented features such as background transitioning, logic design of which stage to enter, touch screen response, and random time generator</li>
-      <li>Languages & Frameworks: <b>C#, Unity</b></li>
-    </ul>
-  </p>
-  <br><br>
+  <!--Bench Bros-->
+  <!--<p>-->
+  <!--  <a href="https://devpost.com/software/bench-bros" target="_blank">-->
+  <!--    <img src="BenchBros.png" class="img-thumbnail img-responsive" height="17.5%" width="17.5%" align="right">-->
+  <!--  </a>-->
+  <!--  <h3>Citrus Hacks Hackathon</h3>-->
+  <!--  <p>Android Game Developer</p>-->
+  <!--  <p>Nov 2015</p>-->
+  <!--  <ul>-->
+  <!--    <li>Developed a 2-D Android game on Unity using C#</li>-->
+  <!--    <li>Implemented features such as background transitioning, logic design of which stage to enter, touch screen response, and random time generator</li>-->
+  <!--    <li>Languages & Frameworks: <b>C#, Unity</b></li>-->
+  <!--  </ul>-->
+  <!--</p>-->
+  <!--<div style="text-align:center">   -->
+  <!--  <a href="https://www.youtube.com/watch?v=QI-mub9UlAI" target="_blank">-->
+  <!--    <i class="fa fa-youtube fa-2x fa-fw"></i>-->
+  <!--  </a>-->
+    
+    <!--<a href="https://devpost.com/software/bench-bros" target="_blank">-->
+    <!--  <img border="0" src="Devpost-32.png"/>-->
+    <!--</a>-->
+  <!--</div>-->
+  <!--<br><br>-->
 </div><br>
 
-<div id="education" class="container-fluid bg-3">  
+<div id="education" class="container-fluid bg-3">
   <h3><b>Education</b></h3><br>
     <descright>
       <p>
-        <img src="UCSD_CSE.gif" height="75%" width="75%" >
+        <img src="UCSD_CSE.gif" height="100%" width="100%">
         <h3>UC San Diego&nbsp;</h3>
         <p>BS Computer Science</p>
         <p>GPA: 3.8</p>
